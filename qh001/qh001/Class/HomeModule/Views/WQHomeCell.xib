@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeCell" rowHeight="100" id="KGk-i7-Jjw" customClass="WQHomeCell" customModule="qh001" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="463" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="463" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_bg" translatesAutoresizingMaskIntoConstraints="NO" id="389-Ay-gqN">
+                        <rect key="frame" x="328" y="10" width="120" height="80"/>
+                        <color key="backgroundColor" red="0.63530296090000005" green="0.6352784038" blue="0.6352949739" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="UTG-HZ-iQX"/>
+                            <constraint firstAttribute="width" constant="120" id="vqr-mv-8k9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新我国尴尬的国家级宫颈癌看了感觉卢卡斯刚刚搞搞的估计卡里的高科技大路口关联方看来噶几了" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HW-zI-bQ9">
+                        <rect key="frame" x="20" y="16" width="298" height="54"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天 00:20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K04-8P-iRT">
+                        <rect key="frame" x="20" y="75.5" width="298" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.63530296090000005" green="0.6352784038" blue="0.6352949739" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6HW-zI-bQ9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="0s8-PU-SSn"/>
+                    <constraint firstItem="389-Ay-gqN" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="5" id="FMK-4k-tkb"/>
+                    <constraint firstItem="6HW-zI-bQ9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="NYe-VY-Zna"/>
+                    <constraint firstAttribute="bottom" secondItem="K04-8P-iRT" secondAttribute="bottom" constant="10" id="ON6-js-Nzs"/>
+                    <constraint firstItem="389-Ay-gqN" firstAttribute="leading" secondItem="6HW-zI-bQ9" secondAttribute="trailing" constant="10" id="jS7-mW-StO"/>
+                    <constraint firstItem="389-Ay-gqN" firstAttribute="leading" secondItem="K04-8P-iRT" secondAttribute="trailing" constant="10" id="k7x-SE-h4X"/>
+                    <constraint firstItem="389-Ay-gqN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="nT1-Sv-T7n"/>
+                    <constraint firstItem="K04-8P-iRT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="y5G-g3-NlJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageV" destination="389-Ay-gqN" id="VD5-Ej-NJj"/>
+                <outlet property="timeLabel" destination="K04-8P-iRT" id="Kjr-xC-Lgh"/>
+                <outlet property="titleLabel" destination="6HW-zI-bQ9" id="pqE-ju-uhZ"/>
+            </connections>
+            <point key="canvasLocation" x="70.28985507246378" y="142.63392857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="login_bg" width="540" height="350"/>
+    </resources>
+</document>

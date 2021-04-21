@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'qh001' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for qh001
+  pod 'IQKeyboardManagerSwift', '6.5.5'
+  pod 'Alamofire', '~> 5.2.1'
+  pod 'SnapKit', '~> 5.0.1'
+  pod 'SwiftyJSON', '~> 5.0.0'
+  pod 'HandyJSON', '~> 5.0.2'
+  pod 'Starscream', '~> 4.0.3'
+  pod 'KeychainAccess', '~> 4.2.0'
+  pod 'Kingfisher', '~> 5.14.1'
+  pod 'Toast-Swift', '~> 5.0.1'
+  pod 'SQLite.swift', '~> 0.12.2'
+  pod 'ZFPlayer', '~> 4.0'
+  pod 'ZFPlayer/ControlView', '~> 4.0'
+  pod 'ZFPlayer/AVPlayer', '~> 4.0'
+  pod 'LLCycleScrollView'
+  pod 'MJRefresh'
+
+  target 'qh001Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'qh001UITests' do
+    # Pods for testing
+  end
+
+end
