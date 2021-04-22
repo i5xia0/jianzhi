@@ -13,7 +13,7 @@ class WQHomeItemView: UIView {
 
     lazy var layout: UICollectionViewFlowLayout = {
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: (width - 30)/2, height: 100)
+        layout.itemSize = CGSize(width: (width - 40)/3, height: 70)
         layout.scrollDirection = UICollectionView.ScrollDirection.horizontal
         layout.minimumLineSpacing = 10.0
         layout.sectionInset = UIEdgeInsets(top: 5, left: 10, bottom: 5, right: 10)
@@ -21,7 +21,7 @@ class WQHomeItemView: UIView {
     }()
     
     lazy var collectionView: UICollectionView = {
-        let collectionView: UICollectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: width, height: 110), collectionViewLayout: layout)
+        let collectionView: UICollectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: width, height: 80), collectionViewLayout: layout)
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.showsVerticalScrollIndicator = false
         collectionView.register(UINib.init(nibName: "WQHomeItemCell", bundle: Bundle.main), forCellWithReuseIdentifier: homeItemCell_id)
@@ -29,11 +29,12 @@ class WQHomeItemView: UIView {
         collectionView.bounces = false
         collectionView.dataSource = self
         collectionView.delegate = self
-        addSubview(collectionView)
         return collectionView
     }()
-    var datas: Array<[String:String]> = [["logo":"\u{e7d4}","name":"微视频"],
-                                         ["logo":"\u{e62e}","name":"快讯"]]
+    var datas: Array<[String:String]> = [["logo":"\u{e62e}","name":"快讯"],
+                                         ["logo":"\u{e7d4}","name":"微视频"],
+                                         ["logo":"\u{e66f}","name":"推荐书籍"]
+                                         ]
         
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -57,9 +58,11 @@ extension WQHomeItemView: UICollectionViewDelegate,UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: true)
         if indexPath.row == 0{
-            NavigationManager.shared.goToVideoVC()
-        }else {
             NavigationManager.shared.goToNewsVC()
+        }else if indexPath.row == 1{
+            NavigationManager.shared.goToVideoVC()
+        }else if indexPath.row == 2{
+            NavigationManager.shared.goToBooksVC()
         }
     }
 }

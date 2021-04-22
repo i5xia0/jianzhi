@@ -18,15 +18,15 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_ShowBuzz" translatesAutoresizingMaskIntoConstraints="NO" id="W5j-9S-tpc">
-                        <rect key="frame" x="76.5" y="5" width="55" height="55"/>
+                        <rect key="frame" x="89" y="10" width="30" height="30"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="55" id="H1b-Se-DLK"/>
-                            <constraint firstAttribute="height" constant="55" id="eYA-DY-cF9"/>
+                            <constraint firstAttribute="width" constant="30" id="H1b-Se-DLK"/>
+                            <constraint firstAttribute="height" constant="30" id="eYA-DY-cF9"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微视频" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pS5-aM-cm2">
-                        <rect key="frame" x="81" y="65" width="46" height="18"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <rect key="frame" x="84" y="45" width="40" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -36,7 +36,7 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="pS5-aM-cm2" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="5Vb-HU-hFF"/>
-                <constraint firstItem="W5j-9S-tpc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Fae-Po-aze"/>
+                <constraint firstItem="W5j-9S-tpc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Fae-Po-aze"/>
                 <constraint firstItem="W5j-9S-tpc" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="fdQ-jW-adH"/>
                 <constraint firstItem="pS5-aM-cm2" firstAttribute="top" secondItem="W5j-9S-tpc" secondAttribute="bottom" constant="5" id="vo0-wy-jfv"/>
             </constraints>

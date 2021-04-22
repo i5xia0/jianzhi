@@ -95,7 +95,6 @@
 		7B249127262695EC004A3746 /* WQHomeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B249126262695EC004A3746 /* WQHomeItemView.swift */; };
 		7B24912D2626B528004A3746 /* WQHomeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24912B2626B528004A3746 /* WQHomeItemCell.swift */; };
 		7B24912E2626B528004A3746 /* WQHomeItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B24912C2626B528004A3746 /* WQHomeItemCell.xib */; };
-		7B2491392626BF01004A3746 /* iconfont_wq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2491352626BE0B004A3746 /* iconfont_wq.ttf */; };
 		7B24913E2626E29F004A3746 /* WQVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24913D2626E29F004A3746 /* WQVideoVC.swift */; };
 		7B2491492626FE78004A3746 /* WQVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2491472626FE78004A3746 /* WQVideoCell.swift */; };
 		7B24914A2626FE78004A3746 /* WQVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B2491482626FE78004A3746 /* WQVideoCell.xib */; };
@@ -169,6 +168,12 @@
 		7B24928B262ECC1B004A3746 /* WQNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24928A262ECC1B004A3746 /* WQNewsModel.swift */; };
 		7B249293262FCA5C004A3746 /* WQBSSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B249292262FCA5B004A3746 /* WQBSSModel.swift */; };
 		7B249298262FF448004A3746 /* WQCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B249297262FF448004A3746 /* WQCommentModel.swift */; };
+		7B2492B32630278C004A3746 /* iconfont_wq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2492B22630278C004A3746 /* iconfont_wq.ttf */; };
+		7B2492BB26311CE0004A3746 /* WQBooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2492BA26311CDF004A3746 /* WQBooksVC.swift */; };
+		7B2492C126311F69004A3746 /* WQBooksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2492BF26311F69004A3746 /* WQBooksCell.swift */; };
+		7B2492C226311F69004A3746 /* WQBooksCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B2492C026311F69004A3746 /* WQBooksCell.xib */; };
+		7B2492C7263125C0004A3746 /* WQBooksDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2492C6263125C0004A3746 /* WQBooksDetailsVC.swift */; };
+		7B2492CC2631595F004A3746 /* WQBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2492CB2631595F004A3746 /* WQBookModel.swift */; };
 		7B8904FF261C208900E2DF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8904FE261C208900E2DF8B /* AppDelegate.swift */; };
 		7B89050B261C208B00E2DF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B890509261C208B00E2DF8B /* LaunchScreen.storyboard */; };
 		7B890516261C208C00E2DF8B /* qh001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B890515261C208C00E2DF8B /* qh001Tests.swift */; };
@@ -310,7 +315,6 @@
 		7B249126262695EC004A3746 /* WQHomeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQHomeItemView.swift; sourceTree = "<group>"; };
 		7B24912B2626B528004A3746 /* WQHomeItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQHomeItemCell.swift; sourceTree = "<group>"; };
 		7B24912C2626B528004A3746 /* WQHomeItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WQHomeItemCell.xib; sourceTree = "<group>"; };
-		7B2491352626BE0B004A3746 /* iconfont_wq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont_wq.ttf; sourceTree = "<group>"; };
 		7B24913D2626E29F004A3746 /* WQVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQVideoVC.swift; sourceTree = "<group>"; };
 		7B2491472626FE78004A3746 /* WQVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQVideoCell.swift; sourceTree = "<group>"; };
 		7B2491482626FE78004A3746 /* WQVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WQVideoCell.xib; sourceTree = "<group>"; };
@@ -384,6 +388,12 @@
 		7B24928A262ECC1B004A3746 /* WQNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQNewsModel.swift; sourceTree = "<group>"; };
 		7B249292262FCA5B004A3746 /* WQBSSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQBSSModel.swift; sourceTree = "<group>"; };
 		7B249297262FF448004A3746 /* WQCommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCommentModel.swift; sourceTree = "<group>"; };
+		7B2492B22630278C004A3746 /* iconfont_wq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont_wq.ttf; sourceTree = "<group>"; };
+		7B2492BA26311CDF004A3746 /* WQBooksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQBooksVC.swift; sourceTree = "<group>"; };
+		7B2492BF26311F69004A3746 /* WQBooksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQBooksCell.swift; sourceTree = "<group>"; };
+		7B2492C026311F69004A3746 /* WQBooksCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WQBooksCell.xib; sourceTree = "<group>"; };
+		7B2492C6263125C0004A3746 /* WQBooksDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQBooksDetailsVC.swift; sourceTree = "<group>"; };
+		7B2492CB2631595F004A3746 /* WQBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQBookModel.swift; sourceTree = "<group>"; };
 		7B8904FB261C208900E2DF8B /* qh001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qh001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8904FE261C208900E2DF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B89050A261C208B00E2DF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -531,6 +541,7 @@
 			isa = PBXGroup;
 			children = (
 				7B24928A262ECC1B004A3746 /* WQNewsModel.swift */,
+				7B2492CB2631595F004A3746 /* WQBookModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -543,6 +554,8 @@
 				7B24914E2627DBEF004A3746 /* WQVideoPlayVC.swift */,
 				7B24916E26282EC7004A3746 /* WQNewsVC.swift */,
 				7B24917A262834B2004A3746 /* WQNewDetailsVC.swift */,
+				7B2492BA26311CDF004A3746 /* WQBooksVC.swift */,
+				7B2492C6263125C0004A3746 /* WQBooksDetailsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -565,6 +578,8 @@
 				7B24917426282FB5004A3746 /* WQNewsCell.xib */,
 				7B24917F2629388E004A3746 /* WQNewDetailsCell.swift */,
 				7B2491802629388E004A3746 /* WQNewDetailsCell.xib */,
+				7B2492BF26311F69004A3746 /* WQBooksCell.swift */,
+				7B2492C026311F69004A3746 /* WQBooksCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1155,8 +1170,8 @@
 		7B890587261C293500E2DF8B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				7B2491352626BE0B004A3746 /* iconfont_wq.ttf */,
 				7B248EA1261D9D63004A3746 /* iconfont_qidong.ttf */,
+				7B2492B22630278C004A3746 /* iconfont_wq.ttf */,
 				7B248EA0261D9D63004A3746 /* iconfont.ttf */,
 				7B249285262EB815004A3746 /* Assets.xcassets */,
 				7B890509261C208B00E2DF8B /* LaunchScreen.storyboard */,
@@ -1276,7 +1291,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2491392626BF01004A3746 /* iconfont_wq.ttf in Resources */,
 				7B248F46261F35BE004A3746 /* WQMarketCell.xib in Resources */,
 				7B249227262C0861004A3746 /* WQPostImageCell.xib in Resources */,
 				7B249286262EB816004A3746 /* Assets.xcassets in Resources */,
@@ -1286,6 +1300,8 @@
 				7B248EA5261D9DCF004A3746 /* iconfont.ttf in Resources */,
 				7B248E66261D8F6D004A3746 /* SPSwitchCell.xib in Resources */,
 				7B89050B261C208B00E2DF8B /* LaunchScreen.storyboard in Resources */,
+				7B2492B32630278C004A3746 /* iconfont_wq.ttf in Resources */,
+				7B2492C226311F69004A3746 /* WQBooksCell.xib in Resources */,
 				7B249246262C5F9F004A3746 /* WQMatketDetailsVC.xib in Resources */,
 				7B24919526298C4E004A3746 /* WQCommentsCell.xib in Resources */,
 				7B24919C26299DFB004A3746 /* WQPostVC.xib in Resources */,
@@ -1489,6 +1505,7 @@
 				7B2491FC262C069E004A3746 /* ImagePickerController+Albums.swift in Sources */,
 				7B2490D726246996004A3746 /* HSStockChartColor.m in Sources */,
 				7B248E7F261D9928004A3746 /* SPLoginVC.swift in Sources */,
+				7B2492C7263125C0004A3746 /* WQBooksDetailsVC.swift in Sources */,
 				7B2490E426246996004A3746 /* HSCrossLineModel.m in Sources */,
 				7B249127262695EC004A3746 /* WQHomeItemView.swift in Sources */,
 				7B248E85261D9928004A3746 /* PasswordTextFeild.swift in Sources */,
@@ -1509,10 +1526,12 @@
 				7B2491042625AC40004A3746 /* SPPageControl.swift in Sources */,
 				7B2491812629388E004A3746 /* WQNewDetailsCell.swift in Sources */,
 				7B2490E326246996004A3746 /* HSStockChartModel.m in Sources */,
+				7B2492C126311F69004A3746 /* WQBooksCell.swift in Sources */,
 				7B249226262C0861004A3746 /* WQPostImageCell.swift in Sources */,
 				7B249210262C069E004A3746 /* OriginalView.swift in Sources */,
 				7B249200262C069E004A3746 /* AssetsCollectionViewDataSource.swift in Sources */,
 				7B248F742621BE0E004A3746 /* SPUserInfo.swift in Sources */,
+				7B2492CC2631595F004A3746 /* WQBookModel.swift in Sources */,
 				7B248E21261D713C004A3746 /* WQMyVC.swift in Sources */,
 				7B248F572621BD3F004A3746 /* SPChatVC.swift in Sources */,
 				7B249212262C069E004A3746 /* VideoPreviewCollectionViewCell.swift in Sources */,
@@ -1571,6 +1590,7 @@
 				7B2491FF262C069E004A3746 /* AssetsViewController.swift in Sources */,
 				7B248E26261D7155004A3746 /* WQMarketVC.swift in Sources */,
 				7B2491FE262C069E004A3746 /* PreviewCollectionViewDataSource.swift in Sources */,
+				7B2492BB26311CE0004A3746 /* WQBooksVC.swift in Sources */,
 				7B248EE3261EDAA0004A3746 /* LKNetworkManager.swift in Sources */,
 				7B24922F262C179F004A3746 /* WQPHAssetToImageTool.swift in Sources */,
 				7B2491F7262C069E004A3746 /* ClippingImageViewController.swift in Sources */,

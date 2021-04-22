@@ -43,5 +43,7 @@ struct API_Path {
     static let news =  "/commondata/newslist"
     //bss
     static let BSSList =  "/commondata/bsslist"
+    //推荐书籍 books
+    static let books =  "/commondata/bookslist"
 }
 

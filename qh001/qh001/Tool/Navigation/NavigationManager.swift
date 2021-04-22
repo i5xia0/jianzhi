@@ -109,6 +109,17 @@ extension NavigationManager {
         commentsVC.delegate = bssVC
         self.mainNav!.pushViewController(commentsVC, animated: true)
     }
+    //推荐书籍
+    func goToBooksVC(){
+        let booksVC = WQBooksVC()
+        self.mainNav!.pushViewController(booksVC, animated: true)
+    }
+    //推荐书籍详情
+    func goToBooksDetailsVC(model:WQBookModel){
+        let booksDatailsVC = WQBooksDetailsVC()
+        booksDatailsVC.model = model
+        self.mainNav!.pushViewController(booksDatailsVC, animated: true)
+    }
     //发布页
     func presentPostVC(){
         let PostVC = WQPostVC()

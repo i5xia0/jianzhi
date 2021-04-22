@@ -106,4 +106,20 @@ extension LKNetworkManager {
             fail(String(describing: error))
         }
     }
+    public func getBooksList(success: @escaping ResponseSuccess,
+                                 fail: @escaping ResponseFail) {
+        var header = Dictionary<String,String> ()
+        header["bundleid"] = "com.laowuQH"
+        self.postRequest(url: API_Path.books, params: nil,header: header, success: { (result) -> (Void) in
+            if result.code == ErrorCode.okm.rawValue {//请求成功
+                success(result)
+            }else if  result.code == ErrorCode.err.rawValue {
+                fail(result.message ?? "error")
+            }else {
+                fail(result.msg ?? "error")
+            }
+        }) { (error) -> (Void) in
+            fail(String(describing: error))
+        }
+    }
 }

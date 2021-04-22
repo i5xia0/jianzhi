@@ -16,7 +16,7 @@ class WQHomeVC: WQBaseVC {
     let banner = LLCycleScrollView.llCycleScrollViewWithFrame(CGRect(x: 0, y: 0, width: ScreenWidth, height: ADAPTWIDTH(180)))
     
     lazy var headerView: UIView = {
-        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: ADAPTWIDTH(180) + 110))
+        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: ADAPTWIDTH(180) + 80))
         headerView.backgroundColor = COLOR_Base.SF5F7FA
         
         banner.delegate = self
@@ -50,7 +50,7 @@ class WQHomeVC: WQBaseVC {
         // 设置PageControl的位置 (.left, .right 默认为.center)
         banner.pageControlPosition = .center
         headerView.addSubview(banner)
-        let homeItemView = WQHomeItemView(frame: CGRect(x: 0, y: ADAPTWIDTH(180), width: ScreenWidth, height: 110))
+        let homeItemView = WQHomeItemView(frame: CGRect(x: 0, y: ADAPTWIDTH(180), width: ScreenWidth, height: 80))
         headerView.addSubview(homeItemView)
         view.addSubview(headerView)
         return headerView
